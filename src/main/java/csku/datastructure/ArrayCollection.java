@@ -7,6 +7,7 @@ public class ArrayCollection implements Collection {
 
     private Object[] elementData;
     private int size;
+
     public ArrayCollection(int c) {
         elementData = new Object[c];
         size = 0;
